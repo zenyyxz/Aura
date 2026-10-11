@@ -1,14 +1,6 @@
 import QtQuick
 import QtQuick.Controls
+import QtQuick.Layouts
+import Aura 1.0
 
-ApplicationWindow {
-    width: 360
-    height: 640
-    visible: true
-    title: qsTr("Cycle Counter")
-
-    Label {
-        anchors.centerIn: parent
-        text: qsTr("Hello, Android!")
-    }
-}
+TodayDashboard {}
